@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            
+        }
+        a {
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgba(13, 0, 197, 0.582);
+            
+        }
+        a:hover {
+            text-decoration: overline;
+            color: black;
+        }
+        a:active {
+            color: rgb(243, 0, 0);
+        }
+        a::after {
+            content: '[LINK]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(59, 71, 71);
+        }
+        .especial {
+            background-color: rgb(44, 44, 94);
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Personalizando LINKS</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/groups/legadodamarvel/" target="blank">Facebook</a></li>
+        <li><a href="https://g1.globo.com/" target="blank">G1</a></li>
+        <li><a href="https://www.youtube.com/watch?v=X23XCFgdh2M" target="blank" class="especial">Trailer DR. Estranho</a></li>
+    </ul>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/X23XCFgdh2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>
