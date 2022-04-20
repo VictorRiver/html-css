@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabelas</title>
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.destaque {
+            background-color: azure;
+        }
+        tr.destaque {
+            background-color: brown;
+        }
+        col.cnome {
+            background-color: rgb(61, 227, 127);
+        }
+        col.csexo {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas de Exercicios</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Empresario</td>
+        </tr>
+        <tr class="destaque">
+            <td>Juliette</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Cantora</td>
+        </tr>
+        <tr>
+            <td>Babu</td>
+            <td>M</td>
+            <td>43</td>
+            <td>Ator</td>
+        </tr>
+        <tr>
+            <td>Luisa Sonsa</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Cantora</td>
+        </tr>
+        <tr>
+            <td>Victor Bastos</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Estudante</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
